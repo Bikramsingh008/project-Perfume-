@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+.border{
+background-color: white;
+}
+.in-box{
+    background-color: rgb(158, 210, 227);
+    height: 900px;
+    width: 1400px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    display:flex;
+    border-radius: 30px;
+    box-shadow: 10px 10px 3px rgb(160, 162, 163);
+}
+.image{
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    background-image: url('Skai-100-ml.webp');
+    position: relative;
+    top: 150px;
+    left: 300px;
+    border: 3px solid rgb(255, 249, 249);
+}
+.box2{
+    height: 500px;
+    width: 450px;
+    background-color: rgb(246, 243, 243);
+    color: black;
+    position: relative;
+    border: 2px solid rgb(255, 249, 249);
+    left: 300px;
+    top: 150px;
+}
+.box2 h4{
+    color: rgb(128, 123, 123);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    letter-spacing: 15px;
+}
+.box2 h1{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 2.5rem;
+}
+.box2 p{
+    color: rgb(128, 123, 123);
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.box2 h2{
+    color: rgb(3, 138, 3);
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 2rem;
+}
+.box2 span{
+    color: rgb(128, 123, 123);
+    position: relative;
+    left: 350px;
+    bottom: 31px;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+.Cart{
+    color: white;
+    background-color: green;
+    position: relative;
+    font-size: 20px;
+    top: 50px;
+    left: 50px;
+    border-radius: 6px;
+    height: 60px;
+    width: 230px;
+}
